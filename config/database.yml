@@ -80,9 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: lyricstyping_production
-  username: lyricstyping
-  password: <%= ENV['LYRICSTYPING_DATABASE_PASSWORD'] %>
   adapter: postgresql
   encoding: unicode
   pool: 5
