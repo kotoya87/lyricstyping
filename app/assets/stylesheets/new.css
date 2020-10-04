@@ -1,0 +1,29 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+
+.texts-bar{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.texts{
+  display: flex;
+  color: black;
+  background-color: white;
+  width: 900px;
+}

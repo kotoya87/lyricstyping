@@ -1,0 +1,103 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.title-bar{
+  display: flex;
+  justify-content: center;
+}
+
+.title{
+  display: flex;
+  color: white;
+  background-color: #00CC00;
+  width: min(900px, 70vw);
+}
+
+.sub-title{
+  color: white;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+
+
+.lists-bar{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lists{
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: white;
+  border-bottom: 2px solid #00CC00;
+  width: min(160px, 70vw);
+}
+
+.content{
+  background-color: #F0FFF0;
+}
+
+.list-name{
+  list-style: none;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.singer{
+  font-size: 14px;
+}
+
+.list-1{
+  width: min(900px, 70vw);
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.list-2{
+  width: min(900px, 70vw);
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.list-3{
+  width: min(900px, 70vw);
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.list-4{
+  width: min(900px, 70vw);
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.image{
+  width: min(160px, 10vw);
+  height: 160px;
+}
